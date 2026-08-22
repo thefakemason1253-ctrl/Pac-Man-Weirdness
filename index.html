@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Maze Muncher (Demo)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Maze Muncher (Demo)</h1>
+    <div id="hud">
+      <div id="score">Score: 0</div>
+      <div id="lives">Lives: 3</div>
+      <button id="pauseBtn" aria-label="Pause">Pause</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="canvas-wrap">
+      <canvas id="game"></canvas>
+    </div>
+
+    <div id="controls" class="controls">
+      <div class="row">
+        <button class="ctrl" id="btn-up" aria-label="Up">▲</button>
+      </div>
+      <div class="row">
+        <button class="ctrl" id="btn-left" aria-label="Left">◀</button>
+        <button class="ctrl" id="btn-down" aria-label="Down">▼</button>
+        <button class="ctrl" id="btn-right" aria-label="Right">▶</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <small>Mobile-friendly demo. Uses no trademarked assets.</small>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
